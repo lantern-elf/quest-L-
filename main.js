@@ -3,7 +3,6 @@ const main = document.getElementById('main');
 
 function home_menu() {
     background.style.backgroundPositionX = "left";
-
 }
 
 function download_menu() {
