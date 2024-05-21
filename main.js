@@ -1,18 +1,22 @@
-const background = document.getElementsByTagName("BODY")[0];
-const main = document.getElementById('main');
+const body = document.getElementsByTagName("BODY")[0];
+const main = document.getElementsByTagName("MAIN")[0];
 
 function home_menu() {
-    background.style.backgroundPositionX = "left";
+    body.style.backgroundPositionX = "left";
+    main.style.left = "0%";
 }
 
 function download_menu() {
-    background.style.backgroundPositionX = "35%";
+    body.style.backgroundPositionX = "35%";
+    main.style.left = "-100%";
 }
 
 function news_later_menu() {
-    background.style.backgroundPositionX = "65%";
+    body.style.backgroundPositionX = "65%";
+    main.style.left = "-200%";
 }
 
 function about_menu() {
-    background.style.backgroundPositionX = "right";
+    body.style.backgroundPositionX = "right";
+    main.style.left = "-300%";
 }

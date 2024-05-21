@@ -41,7 +41,6 @@ body {
     font-size: 20px;
     padding: 10px;
     height: 40px;
-    /* background-color: black; */
 }
 
 .blur {
@@ -79,4 +78,34 @@ body {
 .card {
     border: 1px solid white;
     border-radius: 12px;
+}
+
+main {
+    width: 400%;
+    height: 90vh;
+    display: flex;
+    transition-duration: 0.7s;
+    transition-timing-function: ease-in-out;
+    position: relative;
+    left: 0%;
+}
+
+.main_content {
+    width: 100%;
+}
+
+.home_content {
+    /* background-color: blueviolet; */
+}
+
+.download_content {
+    /* background-color: #5a663e; */
+}
+
+.news_later_content {
+    /* background-color: aqua; */
+}
+
+.about_content {
+    /* background-color: brown; */
 }
